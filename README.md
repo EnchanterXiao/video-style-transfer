@@ -6,9 +6,9 @@ Official paper: https://arxiv.org/abs/1812.02342v5.
 Source code: https://github.com/GlebBrykin/SANET
 
 ## Dataset:
-COCO
-WikiArt
-Video sequence（60 videos， from https://www.videvo.net/）
+COCO  
+WikiArt  
+Video sequence（60 videos， from https://www.videvo.net/）  
 
 ## Modify:
 Add temporal loss and Spatial smoothing loss to fine-tune.  
