@@ -5,23 +5,23 @@ Official paper: https://arxiv.org/abs/1812.02342v5.
 
 Source code: https://github.com/GlebBrykin/SANET
 
-Dataset:
+## Dataset:
 COCO
 WikiArt
 Video sequence（60 videos， from https://www.videvo.net/）
 
-Modify:
+## Modify:
 Add temporal loss and Spatial smoothing loss to fine-tune.
 Use image pair from video to fine-tune. 
 
-Train:
+## Train:
 Image_train: COCO+WikiArt
 video_train: Video sequence+WikiArt
 
-Test:
+## Test:
 Image_transfer: single image transfer
 video_transfer: video transfer
 
-Result:
+## Result:
 
 
